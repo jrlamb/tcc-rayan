@@ -1,0 +1,354 @@
+/* CSS Document */
+
+body, html{
+		background: url(../imagens/background.jpg);
+		background-size:100% 100%;
+		height:100%;
+		width:100%;
+		overflow:hidden;	
+		position: relative;
+		behavior: url('../pie/pie.htc');
+	}
+	.botaoMenor{		
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;
+		background-color:#06C;
+		padding-left:10px;
+		padding-right:10px;
+		height:10px;
+	}
+	.botao{		
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;
+		background-color:#06C;
+		padding:10px;
+		color:#FFF;
+	}
+	.botao2{		
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;
+		background-color:#06C;
+		font-size:14px;
+		color:#FFF;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	.botao2:hover, .botao:hover, .botaoMenor:hover{
+		background-color:#03C;	
+	}
+	a {text-decoration:none; color:#FFF}
+	a:hover{text-decoration:none; color:#CCC}
+	.acesso{
+		width:100%;
+		height:30px;
+		background-color:#039;
+		color:#FFF;
+		-moz-border-radius: 20px 20px 0px 0px;
+		-webkit-border-radius: 20px 20px 0px 0px;
+		border-radius: 20px 20px 0px 0px;
+		padding-top:5px;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		behavior: url('../pie/pie.htc');
+	}
+	.divAcesso{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.float{
+		width:48%;
+		float:left;
+	}
+	.floatMaior{
+		width:90%;
+		float:left;
+	}
+	.floatMenor{
+		width:10%;
+		float:left;
+	}
+	.floatMaior1{
+		width:76%;
+		float:left;
+		margin-left:2%;
+		margin-right:2%;
+	}
+	.floatMenor1{
+		width:20%;
+		float:left;
+	}
+	
+	.floatMaior2{
+		width:70%;
+		float:left;
+	}
+	.floatMenor2{
+		width:20%;
+		float:left;
+	}
+	.floatMaior3{
+		width:60%;
+		float:left;
+	}
+	.floatMenor3{
+		width:35%;
+		float:left;
+	}
+	#btnSair:hover{
+		color:#0CF;
+	}
+	.acesso:hover{
+		background-color:#222;
+		font-weight:bolder;
+	}
+	
+	.conteudo{ margin-left:20px; margin-right:20px}
+	#divMeusarquivos, #divMinhasSolicitacoes, #divMeusEventos, #divAutores, #divComparacao{
+		width:100%;
+		height:auto;
+		max-height:230px;
+		overflow:auto;
+	}
+	#divComparacao{
+		max-height:290px;
+	}
+	.separador{
+		border-right:#222 solid 1px;
+	}
+	.divMenu, .divMenuPontaCima{
+		border-bottom:#03C solid 2px;
+	}
+	.btnFlutuante{
+		padding-left:12px;
+		padding-right:12px;	
+		height:25px;
+		width:28%;
+		-moz-border-radius: 30px 30px 0px 0px; /* Para Firefox */
+		-webkit-border-radius:  30px 30px 0px 0px; /*Para Safari e Chrome */
+		border-radius:  30px 30px 0px 0px;/* Para Opera 10.5+*/	
+		background-color:#06C;
+		font-size:17px;
+		float: left;
+	}
+	.btnFlutuante:hover{	
+		background-color:#06C;
+		font-weight:bold;		
+	}
+	.divMenu:hover, .divMenuPontaCima:hover, .divMenuPontaBaixo:hover{
+		background-color:#039;
+	}
+	.divMenuPontaCima{	
+		-moz-border-radius: 0px 30px 0px 0px; /* Para Firefox */
+		-webkit-border-radius:  0px 30px 0px 0px; /*Para Safari e Chrome */
+		border-radius:  0px 30px 0px 0px;/* Para Opera 10.5+*/
+		behavior: url('../pie/pie.htc');
+	}
+
+	.divMenuPontaBaixo{
+		-moz-border-radius: 0px 0px 30px 0px; /* Para Firefox */
+	-webkit-border-radius:  0px 0px 30px 0px; /*Para Safari e Chrome */
+	border-radius:  0px 0px 30px 0px;/* Para Opera 10.5+*/
+	behavior: url('../pie/pie.htc');
+	}
+	#divRodape{
+	width:100%;
+		position:fixed;
+		bottom:0;
+	}
+	.topoTabela{
+		border:#FFF solid 1px;
+		background-color:#111;
+		color:#FFF;
+		font-weight:bolder;
+	}
+	.nova{
+		border:#FFF solid 1px;
+		background-color:#09C;
+		color:#FFF;
+	}
+	.par{
+		border:#FFF solid 1px;
+		background-color:#444;
+		color:#FFF;
+	}
+	.impar{
+		border:#FFF solid 1px;
+		background-color:#777;
+		color:#FFF;
+	}
+	.sucesso, .erro{
+		-moz-border-radius: 10px 10px 10px 10px; /* Para Firefox */
+		-webkit-border-radius: 10px 10px 10px 10px; /*Para Safari e Chrome */
+		border-radius: 10px 10px 10px 10px;/* Para Opera 10.5+*/	
+		color:#FFF;
+		width:65%;
+	}
+	.sucesso{
+		background-color:#090;
+	}
+	.erro{
+		background-color:#F00;
+	}
+	#nome{width:80%}
+	.divConteudo{
+		width:100%;
+		float:left;
+		height:88%;
+		position: relative;
+		-moz-border-radius: 0px 0px 10px 10px; /* Para Firefox */
+		-webkit-border-radius:  0px 0px 10px 10px; /*Para Safari e Chrome */
+		border-radius:  0px 0px 10px 10px;/* Para Opera 10.5+*/		
+		background: #06C;
+		behavior: url('../pie/pie.htc');
+	}
+	#divSolicitacoes{	
+		-moz-border-radius: 0px 0px 0px 30px; /* Para Firefox */
+		-webkit-border-radius:  0px 0px 0px 30px; /*Para Safari e Chrome */
+		border-radius:  0px 0px 0px 30px;/* Para Opera 10.5+*/
+		background-color:#06C;
+		width:14%;
+		max-width:15%;
+		color:#FFF;
+		height:30px;
+		behavior: url('../pie/pie.htc');
+	}
+	
+@media only screen and (min-height: 768px) {
+	
+	.divTitulo{
+		text-shadow: 0px 0px 5px #069;
+		text-align:center;
+		font-family:Verdana, Geneva, sans-serif;
+		width:700px;	
+		position: relative;
+	}
+	
+	.conteudoCentral{
+		width:600px;
+		height:420px;
+		-moz-border-radius: 20px 20px 20px 20px; /* Para Firefox */
+		-webkit-border-radius:  20px 20px 20px 20px; /*Para Safari e Chrome */
+		border-radius:  20px 20px 20px 20px;/* Para Opera 10.5+*/	
+		opacity: 0.85;
+		-moz-opacity: 0.85;
+		-khtml-opacity: 0.85;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+		filter: alpha(opacity=85);
+		background: -moz-linear-gradient(top, #999, #036) repeat-X;
+		background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#036)) repeat-X;
+		background:linear-gradient(#999, #036);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#003366);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#003366)";
+
+	margin:20px;
+		position: relative;
+		clear:both;
+		behavior: url('../pie/pie.htc');
+	}
+	
+	.divMenu, .divMenuPontaCima, .divMenuPontaBaixo{
+		height:48px;
+		background-color:#06C;
+		padding-top:15px;
+		width:100%;
+	}
+	
+	#divRodapeDentro{
+		min-width:550px;
+		max-width:600px;
+		width:600px;
+		height:23px;
+		text-align:center;	
+		-moz-border-radius: 30px 30px 30px 30px; /* Para Firefox */
+		-webkit-border-radius: 30px 30px 30px 30px; /*Para Safari e Chrome */
+		border-radius: 30px 30px 30px 30px;/* Para Opera 10.5+*/	
+		background: -moz-linear-gradient(top, #999, #777) repeat-X;
+		background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#777)) repeat-X;
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#777777)";
+		background:linear-gradient(#999, #777);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#777777);
+		box-shadow:0px 0px 5px #CCCCCC;
+		behavior: url('../pie/pie.htc');
+	}
+}
+/* CSS Document */
+@media only screen and (max-height: 767px) {
+	.divTitulo{
+		text-shadow: 0px 0px 5px #069;
+		text-align:center;
+		font-family:Verdana, Geneva, sans-serif;
+		width:650px;	
+		position: relative;
+	}	
+	.conteudoCentral{
+		width:550px;
+		height:450px;
+		-moz-border-radius: 20px 20px 20px 20px; /* Para Firefox */
+		-webkit-border-radius:  20px 20px 20px 20px; /*Para Safari e Chrome */
+		border-radius:  20px 20px 20px 20px;/* Para Opera 10.5+*/	
+		opacity: 0.85;
+		-moz-opacity: 0.85;
+		-khtml-opacity: 0.85;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+		filter: alpha(opacity=85);
+		background: -moz-linear-gradient(top, #999, #036) repeat-X;
+		background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#036)) repeat-X;
+		background:linear-gradient(#999, #036) ;
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#003366)";
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#003366);
+		/*
+		background-size:850px 600px;
+		-webkit-background-size: 850px 600px;
+		-o-background-size: 850px 650px;
+		-khtml-background-size: 850px 600px;
+		-moz-background-size: 850px 600px;*/
+		margin:20px;
+		position: relative;
+		clear:both;
+		behavior: url('../pie/pie.htc');
+	}
+	.divMenu, .divMenuPontaCima, .divMenuPontaBaixo{
+		height:42px;
+		background-color:#06C;
+		padding-top:15px;
+		width:100%;
+	}
+	.logo{width:80px; height:80px;}
+	#divRodapeDentro{
+		min-width:500px;
+		max-width:550px;
+		width:550px;
+		height:23px;
+		text-align:center;	
+		-moz-border-radius: 30px 30px 0px 0px; /* Para Firefox */
+		-webkit-border-radius: 30px 30px 0px 0px; /*Para Safari e Chrome */
+		border-radius: 30px 30px 0px 0px;/* Para Opera 10.5+*/	
+		background: -moz-linear-gradient(top, #999, #444) repeat-X;
+		background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#444)) repeat-X;
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#444444)";
+		background:linear-gradient(#999, #777);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#999999, endColorstr=#444444);
+		box-shadow:0px 0px 3px #444;
+		behavior: url('../pie/pie.htc');
+	}
+}
+.alert{
+	width:85%;
+	height:80px;
+	background-color: yellow;
+	text-align:center;	
+	-moz-border-radius: 20px 20px 20px 20px; /* Para Firefox */
+	-webkit-border-radius: 20px 20px 20px 20px; /*Para Safari e Chrome */
+	border-radius: 20px 20px 20px 20px;/* Para Opera 10.5+*/	
+	opacity: 0.85;
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	filter: alpha(opacity=85);
+	behavior: url('../pie/pie.htc');
+	font-size:17px;
+}
